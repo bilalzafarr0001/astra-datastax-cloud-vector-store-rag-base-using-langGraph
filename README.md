@@ -13,4 +13,4 @@ uv run rag.py
 read_pdf  ->  save_to_astra  ->  search_astra  ->  ask_ai
 ```
 
-`create_pdf.py` only makes the sample PDF (`data/company_handbook.pdf`). It has already been run.
+The PDF it reads is `data/company_handbook.pdf`. To use your own PDF, put it in `data/` and change the file name in `rag.py`.
